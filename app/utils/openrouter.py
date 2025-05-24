@@ -1,31 +1,47 @@
-import requests
-from fastapi import HTTPException
-from app.config import OPENROUTER__API_KEY  # Assuming you'll add this to your config
+# app/utils/openrouter.py
 
-# OpenRouter.ai API URL
-OPENROUTER_AI_API_URL = "https://openrouter.ai/api/v1"
+import os
+import httpx
+import logging
+from dotenv import load_dotenv
 
-def get_roadmap_from_openrouter(goal_title: str, goal_description: str) -> dict:
-    """
-    Make a request to OpenRouter.ai to generate a roadmap for the given goal.
+load_dotenv()
 
-    :param goal_title: The title of the goal
-    :param goal_description: A description of the goal
-    :return: The generated roadmap as a dictionary
-    """
-    data = {
-        "goal": goal_title,
-        "description": goal_description,
-    }
-    
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
+
+async def get_roadmap_from_openrouter(goal: str) -> str:
+    if not OPENROUTER_API_KEY:
+        raise ValueError("OPENROUTER_API_KEY not found in environment variables.")
+
     headers = {
-        "Authorization": f"Bearer {OPENROUTER_AI_API_KEY}",
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Content-Type": "application/json"
     }
 
-    try:
-        response = requests.post(OPENROUTER_AI_API_URL, json=data, headers=headers)
-        response.raise_for_status()  # Raise an exception for HTTP error responses
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        raise HTTPException(status_code=500, detail=f"Error communicating with OpenRouter.ai: {e}")
+    prompt = f"Create a detailed roadmap to achieve the following goal:\n{goal}"
+
+    payload = {
+        "model": "openai/gpt-4-turbo",
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 1000  # limit tokens to avoid hitting quota limits
+    }
+
+    async with httpx.AsyncClient() as client:
+        response = await client.post(OPENROUTER_URL, headers=headers, json=payload)
+
+    response.raise_for_status()
+    data = response.json()
+
+    logging.info(f"OpenRouter API response data: {data}")
+
+    if "error" in data:
+        # Handle OpenRouter error response explicitly
+        error_msg = data["error"].get("message", "Unknown error from OpenRouter API.")
+        raise ValueError(f"OpenRouter API error: {error_msg}")
+
+    if "choices" in data and len(data["choices"]) > 0:
+        return data["choices"][0]["message"]["content"]
+    else:
+        raise ValueError(f"Unexpected API response structure: {data}")
 

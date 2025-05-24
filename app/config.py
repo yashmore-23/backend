@@ -22,4 +22,4 @@ if not SECRET_KEY:
     print("⚠️ Warning: JWT SECRET_KEY is missing. Authentication may be insecure.")
 
 # OpenRouter AI API configuration
-OPENROUTER__API_KEY = os.getenv("OPENROUTER_API_KEY", "your-openrouter-ai-api-key")  # Default value can be empty or a fallback message
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "your-openrouter-ai-api-key")  # Default value can be empty or a fallback message

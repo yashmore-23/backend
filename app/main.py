@@ -11,6 +11,7 @@ from .routes import user, auth, goal
 from app.routes import reminder
 from app.utils.scheduler import start_scheduler
 from fastapi.middleware.cors import CORSMiddleware
+from app.routes.roadmap import router as roadmap_router
 
 # Create all database tables
 models.Base.metadata.create_all(bind=database.engine)
@@ -23,6 +24,7 @@ app.include_router(user.router, tags=["Users"])
 app.include_router(auth.router, prefix="/auth", tags=["Auth"])
 app.include_router(goal.router, prefix="/goals", tags=["Goals"])
 app.include_router(reminder.router, prefix="/reminders", tags=["Reminders"])
+app.include_router(roadmap_router, prefix="/roadmap")
 
 # Start scheduler on startup
 @app.on_event("startup")
