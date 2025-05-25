@@ -2,22 +2,26 @@
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from app.utils.openrouter import get_roadmap_from_openrouter
+from typing import List, Literal
+from app.utils.openrouter import chat_with_openrouter
 
 router = APIRouter()
 
-class GoalInput(BaseModel):
-    goal: str
+class Message(BaseModel):
+    role: Literal["user", "assistant"]
+    content: str
 
-@router.post("/generate-roadmap/")
-async def generate_roadmap(goal_input: GoalInput):
+class ChatInput(BaseModel):
+    messages: List[Message]
+
+@router.post("/chat/")
+async def chat_with_ai(chat_input: ChatInput):
     try:
-        roadmap = await get_roadmap_from_openrouter(goal_input.goal)
-        return {"roadmap": roadmap}
+        # Forward the list of messages to OpenRouter
+        response = await chat_with_openrouter([message.dict() for message in chat_input.messages])
+        return {"response": response}
     except ValueError as ve:
-        # Catch errors from openrouter.py like quota exceeded or API issues
         return {"error": str(ve)}
     except Exception as e:
-        # Other unexpected errors
         raise HTTPException(status_code=500, detail=str(e))
 

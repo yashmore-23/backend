@@ -7,7 +7,7 @@ from typing import List
 from app.database import get_db
 from app.utils.auth import get_current_user
 from app import models, schemas
-from app.utils.openrouter import get_roadmap_from_openrouter
+from app.utils.openrouter import get_roadmap_from_openrouter  # updated import
 
 router = APIRouter()
 
@@ -82,7 +82,7 @@ def delete_goal(
     return
 
 @router.post("/{goal_id}/roadmap", response_model=schemas.RoadmapResponse)
-def get_roadmap_for_goal(
+async def get_roadmap_for_goal(
     goal_id: int,
     db: Session = Depends(get_db),
     current_user: models.User = Depends(get_current_user)
@@ -99,8 +99,13 @@ def get_roadmap_for_goal(
     if not goal:
         raise HTTPException(status_code=404, detail="Goal not found")
 
+    user_prompt = (
+        f"Create a step-by-step roadmap to achieve the following goal:\n\n"
+        f"Title: {goal.title}\nDescription: {goal.description}"
+    )
+
     try:
-        roadmap = get_roadmap_from_openrouter(goal.title, goal.description)
+        roadmap = await get_roadmap_from_openrouter(user_prompt)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Roadmap generation failed: {str(e)}")
 

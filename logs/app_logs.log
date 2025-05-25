@@ -1157,3 +1157,610 @@ Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-2
 Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:33:33 IST)" executed successfully
 Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:34:33 IST)" (scheduled at 2025-05-24 15:33:33.268674+05:30)
 Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:34:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:35:33 IST)" (scheduled at 2025-05-24 15:34:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:35:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:36:33 IST)" (scheduled at 2025-05-24 15:35:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:36:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:37:33 IST)" (scheduled at 2025-05-24 15:36:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:37:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:38:33 IST)" (scheduled at 2025-05-24 15:37:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:38:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:39:33 IST)" (scheduled at 2025-05-24 15:38:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:39:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:40:33 IST)" (scheduled at 2025-05-24 15:39:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:40:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:41:33 IST)" (scheduled at 2025-05-24 15:40:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:41:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:42:33 IST)" (scheduled at 2025-05-24 15:41:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:42:33 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:43:33 IST)" (scheduled at 2025-05-24 15:42:33.268674+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:43:33 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:45:17 IST)" (scheduled at 2025-05-24 15:44:17.636959+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:45:17 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:46:17 IST)" (scheduled at 2025-05-24 15:45:17.636959+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:46:17 IST)" executed successfully
+Run time of job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-24 15:47:17 IST)" was missed by 0:00:05.859276
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:55:16 IST)" (scheduled at 2025-05-25 19:54:16.793167+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:55:16 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:56:52 IST)" (scheduled at 2025-05-25 19:55:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:56:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:57:52 IST)" (scheduled at 2025-05-25 19:56:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:57:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:58:52 IST)" (scheduled at 2025-05-25 19:57:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:58:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:59:52 IST)" (scheduled at 2025-05-25 19:58:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 19:59:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:00:52 IST)" (scheduled at 2025-05-25 19:59:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:00:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:01:52 IST)" (scheduled at 2025-05-25 20:00:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:01:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:02:52 IST)" (scheduled at 2025-05-25 20:01:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:02:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:03:52 IST)" (scheduled at 2025-05-25 20:02:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:03:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:04:52 IST)" (scheduled at 2025-05-25 20:03:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:04:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:05:52 IST)" (scheduled at 2025-05-25 20:04:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:05:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:06:52 IST)" (scheduled at 2025-05-25 20:05:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:06:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:07:52 IST)" (scheduled at 2025-05-25 20:06:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:07:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:08:52 IST)" (scheduled at 2025-05-25 20:07:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:08:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:09:52 IST)" (scheduled at 2025-05-25 20:08:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:09:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:10:52 IST)" (scheduled at 2025-05-25 20:09:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:10:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:11:52 IST)" (scheduled at 2025-05-25 20:10:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:11:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:12:52 IST)" (scheduled at 2025-05-25 20:11:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:12:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:13:52 IST)" (scheduled at 2025-05-25 20:12:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:13:52 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:14:52 IST)" (scheduled at 2025-05-25 20:13:52.431275+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:14:52 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:16:04 IST)" (scheduled at 2025-05-25 20:15:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:16:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:17:04 IST)" (scheduled at 2025-05-25 20:16:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:17:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:18:04 IST)" (scheduled at 2025-05-25 20:17:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:18:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:19:04 IST)" (scheduled at 2025-05-25 20:18:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:19:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:20:04 IST)" (scheduled at 2025-05-25 20:19:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:20:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:21:04 IST)" (scheduled at 2025-05-25 20:20:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:21:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:22:04 IST)" (scheduled at 2025-05-25 20:21:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:22:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:23:04 IST)" (scheduled at 2025-05-25 20:22:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:23:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:24:04 IST)" (scheduled at 2025-05-25 20:23:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:24:04 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:25:04 IST)" (scheduled at 2025-05-25 20:24:04.657769+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:25:04 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:26:25 IST)" (scheduled at 2025-05-25 20:25:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:26:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:27:25 IST)" (scheduled at 2025-05-25 20:26:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:27:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:28:25 IST)" (scheduled at 2025-05-25 20:27:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:28:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:29:25 IST)" (scheduled at 2025-05-25 20:28:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:29:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:30:25 IST)" (scheduled at 2025-05-25 20:29:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:30:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:31:25 IST)" (scheduled at 2025-05-25 20:30:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:31:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:32:25 IST)" (scheduled at 2025-05-25 20:31:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:32:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:33:25 IST)" (scheduled at 2025-05-25 20:32:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:33:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:34:25 IST)" (scheduled at 2025-05-25 20:33:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:34:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:35:25 IST)" (scheduled at 2025-05-25 20:34:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:35:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:36:25 IST)" (scheduled at 2025-05-25 20:35:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:36:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:37:25 IST)" (scheduled at 2025-05-25 20:36:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:37:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:38:25 IST)" (scheduled at 2025-05-25 20:37:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:38:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:39:25 IST)" (scheduled at 2025-05-25 20:38:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:39:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:40:25 IST)" (scheduled at 2025-05-25 20:39:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:40:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:41:25 IST)" (scheduled at 2025-05-25 20:40:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:41:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:42:25 IST)" (scheduled at 2025-05-25 20:41:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:42:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:43:25 IST)" (scheduled at 2025-05-25 20:42:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:43:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:44:25 IST)" (scheduled at 2025-05-25 20:43:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:44:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:45:25 IST)" (scheduled at 2025-05-25 20:44:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:45:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:46:25 IST)" (scheduled at 2025-05-25 20:45:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:46:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:47:25 IST)" (scheduled at 2025-05-25 20:46:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:47:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:48:25 IST)" (scheduled at 2025-05-25 20:47:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:48:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:49:25 IST)" (scheduled at 2025-05-25 20:48:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:49:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:50:25 IST)" (scheduled at 2025-05-25 20:49:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:50:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:51:25 IST)" (scheduled at 2025-05-25 20:50:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:51:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:52:25 IST)" (scheduled at 2025-05-25 20:51:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:52:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:53:25 IST)" (scheduled at 2025-05-25 20:52:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:53:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:54:25 IST)" (scheduled at 2025-05-25 20:53:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:54:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:55:25 IST)" (scheduled at 2025-05-25 20:54:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:55:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:56:25 IST)" (scheduled at 2025-05-25 20:55:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:56:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:57:25 IST)" (scheduled at 2025-05-25 20:56:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:57:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:58:25 IST)" (scheduled at 2025-05-25 20:57:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:58:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:59:25 IST)" (scheduled at 2025-05-25 20:58:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 20:59:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:00:25 IST)" (scheduled at 2025-05-25 20:59:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:00:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:01:25 IST)" (scheduled at 2025-05-25 21:00:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:01:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:02:25 IST)" (scheduled at 2025-05-25 21:01:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:02:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:03:25 IST)" (scheduled at 2025-05-25 21:02:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:03:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:04:25 IST)" (scheduled at 2025-05-25 21:03:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:04:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:05:25 IST)" (scheduled at 2025-05-25 21:04:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:05:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:06:25 IST)" (scheduled at 2025-05-25 21:05:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:06:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:07:25 IST)" (scheduled at 2025-05-25 21:06:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:07:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:08:25 IST)" (scheduled at 2025-05-25 21:07:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:08:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:09:25 IST)" (scheduled at 2025-05-25 21:08:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:09:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:10:25 IST)" (scheduled at 2025-05-25 21:09:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:10:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:11:25 IST)" (scheduled at 2025-05-25 21:10:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:11:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:12:25 IST)" (scheduled at 2025-05-25 21:11:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:12:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:13:25 IST)" (scheduled at 2025-05-25 21:12:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:13:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:14:25 IST)" (scheduled at 2025-05-25 21:13:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:14:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:15:25 IST)" (scheduled at 2025-05-25 21:14:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:15:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:16:25 IST)" (scheduled at 2025-05-25 21:15:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:16:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:17:25 IST)" (scheduled at 2025-05-25 21:16:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:17:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:18:25 IST)" (scheduled at 2025-05-25 21:17:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:18:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:19:25 IST)" (scheduled at 2025-05-25 21:18:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:19:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:20:25 IST)" (scheduled at 2025-05-25 21:19:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:20:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:21:25 IST)" (scheduled at 2025-05-25 21:20:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:21:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:22:25 IST)" (scheduled at 2025-05-25 21:21:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:22:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:23:25 IST)" (scheduled at 2025-05-25 21:22:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:23:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:24:25 IST)" (scheduled at 2025-05-25 21:23:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:24:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:25:25 IST)" (scheduled at 2025-05-25 21:24:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:25:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:26:25 IST)" (scheduled at 2025-05-25 21:25:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:26:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:27:25 IST)" (scheduled at 2025-05-25 21:26:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:27:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:28:25 IST)" (scheduled at 2025-05-25 21:27:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:28:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:29:25 IST)" (scheduled at 2025-05-25 21:28:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:29:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:30:25 IST)" (scheduled at 2025-05-25 21:29:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:30:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:31:25 IST)" (scheduled at 2025-05-25 21:30:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:31:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:32:25 IST)" (scheduled at 2025-05-25 21:31:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:32:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:33:25 IST)" (scheduled at 2025-05-25 21:32:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:33:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:34:25 IST)" (scheduled at 2025-05-25 21:33:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:34:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:35:25 IST)" (scheduled at 2025-05-25 21:34:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:35:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:36:25 IST)" (scheduled at 2025-05-25 21:35:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:36:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:37:25 IST)" (scheduled at 2025-05-25 21:36:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:37:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:38:25 IST)" (scheduled at 2025-05-25 21:37:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:38:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:39:25 IST)" (scheduled at 2025-05-25 21:38:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:39:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:40:25 IST)" (scheduled at 2025-05-25 21:39:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:40:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:41:25 IST)" (scheduled at 2025-05-25 21:40:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:41:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:42:25 IST)" (scheduled at 2025-05-25 21:41:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:42:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:43:25 IST)" (scheduled at 2025-05-25 21:42:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:43:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:44:25 IST)" (scheduled at 2025-05-25 21:43:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:44:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:45:25 IST)" (scheduled at 2025-05-25 21:44:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:45:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:46:25 IST)" (scheduled at 2025-05-25 21:45:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:46:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:47:25 IST)" (scheduled at 2025-05-25 21:46:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:47:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:48:25 IST)" (scheduled at 2025-05-25 21:47:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:48:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:49:25 IST)" (scheduled at 2025-05-25 21:48:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:49:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:50:25 IST)" (scheduled at 2025-05-25 21:49:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:50:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:51:25 IST)" (scheduled at 2025-05-25 21:50:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:51:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:52:25 IST)" (scheduled at 2025-05-25 21:51:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:52:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:53:25 IST)" (scheduled at 2025-05-25 21:52:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:53:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:54:25 IST)" (scheduled at 2025-05-25 21:53:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:54:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:55:25 IST)" (scheduled at 2025-05-25 21:54:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:55:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:56:25 IST)" (scheduled at 2025-05-25 21:55:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:56:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:57:25 IST)" (scheduled at 2025-05-25 21:56:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:57:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:58:25 IST)" (scheduled at 2025-05-25 21:57:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:58:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:59:25 IST)" (scheduled at 2025-05-25 21:58:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 21:59:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:00:25 IST)" (scheduled at 2025-05-25 21:59:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:00:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:01:25 IST)" (scheduled at 2025-05-25 22:00:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:01:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:02:25 IST)" (scheduled at 2025-05-25 22:01:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:02:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:03:25 IST)" (scheduled at 2025-05-25 22:02:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:03:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:04:25 IST)" (scheduled at 2025-05-25 22:03:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:04:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:05:25 IST)" (scheduled at 2025-05-25 22:04:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:05:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:06:25 IST)" (scheduled at 2025-05-25 22:05:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:06:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:07:25 IST)" (scheduled at 2025-05-25 22:06:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:07:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:08:25 IST)" (scheduled at 2025-05-25 22:07:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:08:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:09:25 IST)" (scheduled at 2025-05-25 22:08:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:09:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:10:25 IST)" (scheduled at 2025-05-25 22:09:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:10:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:11:25 IST)" (scheduled at 2025-05-25 22:10:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:11:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:12:25 IST)" (scheduled at 2025-05-25 22:11:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:12:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:13:25 IST)" (scheduled at 2025-05-25 22:12:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:13:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:14:25 IST)" (scheduled at 2025-05-25 22:13:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:14:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:15:25 IST)" (scheduled at 2025-05-25 22:14:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:15:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:16:25 IST)" (scheduled at 2025-05-25 22:15:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:16:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:17:25 IST)" (scheduled at 2025-05-25 22:16:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:17:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:18:25 IST)" (scheduled at 2025-05-25 22:17:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:18:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:19:25 IST)" (scheduled at 2025-05-25 22:18:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:19:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:20:25 IST)" (scheduled at 2025-05-25 22:19:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:20:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:21:25 IST)" (scheduled at 2025-05-25 22:20:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:21:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:22:25 IST)" (scheduled at 2025-05-25 22:21:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:22:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:23:25 IST)" (scheduled at 2025-05-25 22:22:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:23:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:24:25 IST)" (scheduled at 2025-05-25 22:23:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:24:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:25:25 IST)" (scheduled at 2025-05-25 22:24:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:25:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:26:25 IST)" (scheduled at 2025-05-25 22:25:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:26:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:27:25 IST)" (scheduled at 2025-05-25 22:26:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:27:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:28:25 IST)" (scheduled at 2025-05-25 22:27:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:28:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:29:25 IST)" (scheduled at 2025-05-25 22:28:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:29:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:30:25 IST)" (scheduled at 2025-05-25 22:29:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:30:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:31:25 IST)" (scheduled at 2025-05-25 22:30:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:31:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:32:25 IST)" (scheduled at 2025-05-25 22:31:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:32:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:33:25 IST)" (scheduled at 2025-05-25 22:32:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:33:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:34:25 IST)" (scheduled at 2025-05-25 22:33:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:34:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:35:25 IST)" (scheduled at 2025-05-25 22:34:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:35:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:36:25 IST)" (scheduled at 2025-05-25 22:35:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:36:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:37:25 IST)" (scheduled at 2025-05-25 22:36:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:37:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:38:25 IST)" (scheduled at 2025-05-25 22:37:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:38:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:39:25 IST)" (scheduled at 2025-05-25 22:38:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:39:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:40:25 IST)" (scheduled at 2025-05-25 22:39:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:40:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:41:25 IST)" (scheduled at 2025-05-25 22:40:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:41:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:42:25 IST)" (scheduled at 2025-05-25 22:41:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:42:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:43:25 IST)" (scheduled at 2025-05-25 22:42:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:43:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:44:25 IST)" (scheduled at 2025-05-25 22:43:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:44:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:45:25 IST)" (scheduled at 2025-05-25 22:44:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:45:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:46:25 IST)" (scheduled at 2025-05-25 22:45:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:46:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:47:25 IST)" (scheduled at 2025-05-25 22:46:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:47:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:48:25 IST)" (scheduled at 2025-05-25 22:47:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:48:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:49:25 IST)" (scheduled at 2025-05-25 22:48:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:49:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:50:25 IST)" (scheduled at 2025-05-25 22:49:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:50:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:51:25 IST)" (scheduled at 2025-05-25 22:50:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:51:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:52:25 IST)" (scheduled at 2025-05-25 22:51:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:52:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:53:25 IST)" (scheduled at 2025-05-25 22:52:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:53:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:54:25 IST)" (scheduled at 2025-05-25 22:53:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:54:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:55:25 IST)" (scheduled at 2025-05-25 22:54:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:55:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:56:25 IST)" (scheduled at 2025-05-25 22:55:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:56:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:57:25 IST)" (scheduled at 2025-05-25 22:56:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:57:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:58:25 IST)" (scheduled at 2025-05-25 22:57:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:58:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:59:25 IST)" (scheduled at 2025-05-25 22:58:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 22:59:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:00:25 IST)" (scheduled at 2025-05-25 22:59:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:00:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:01:25 IST)" (scheduled at 2025-05-25 23:00:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:01:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:02:25 IST)" (scheduled at 2025-05-25 23:01:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:02:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:03:25 IST)" (scheduled at 2025-05-25 23:02:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:03:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:04:25 IST)" (scheduled at 2025-05-25 23:03:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:04:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:05:25 IST)" (scheduled at 2025-05-25 23:04:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:05:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:06:25 IST)" (scheduled at 2025-05-25 23:05:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:06:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:07:25 IST)" (scheduled at 2025-05-25 23:06:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:07:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:08:25 IST)" (scheduled at 2025-05-25 23:07:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:08:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:09:25 IST)" (scheduled at 2025-05-25 23:08:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:09:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:10:25 IST)" (scheduled at 2025-05-25 23:09:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:10:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:11:25 IST)" (scheduled at 2025-05-25 23:10:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:11:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:12:25 IST)" (scheduled at 2025-05-25 23:11:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:12:25 IST)" executed successfully
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:13:25 IST)" (scheduled at 2025-05-25 23:12:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:13:25 IST)" executed successfully
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:14:25 IST)" (scheduled at 2025-05-25 23:13:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:14:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:15:25 IST)" (scheduled at 2025-05-25 23:14:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:15:25 IST)" executed successfully
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:16:25 IST)" (scheduled at 2025-05-25 23:15:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:16:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:17:25 IST)" (scheduled at 2025-05-25 23:16:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:17:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:18:25 IST)" (scheduled at 2025-05-25 23:17:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:18:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:19:25 IST)" (scheduled at 2025-05-25 23:18:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:19:25 IST)" executed successfully
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:20:25 IST)" (scheduled at 2025-05-25 23:19:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:20:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:21:25 IST)" (scheduled at 2025-05-25 23:20:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:21:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:22:25 IST)" (scheduled at 2025-05-25 23:21:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:22:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:23:25 IST)" (scheduled at 2025-05-25 23:22:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:23:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:24:25 IST)" (scheduled at 2025-05-25 23:23:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:24:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:25:25 IST)" (scheduled at 2025-05-25 23:24:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:25:25 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:26:25 IST)" (scheduled at 2025-05-25 23:25:25.214858+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:26:25 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:30:39 IST)" (scheduled at 2025-05-25 23:29:39.058009+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:30:39 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:31:39 IST)" (scheduled at 2025-05-25 23:30:39.058009+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:31:39 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:32:53 IST)" (scheduled at 2025-05-25 23:31:53.873706+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:32:53 IST)" executed successfully
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:33:53 IST)" (scheduled at 2025-05-25 23:32:53.873706+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:33:53 IST)" executed successfully
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:34:53 IST)" (scheduled at 2025-05-25 23:33:53.873706+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:34:53 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:35:53 IST)" (scheduled at 2025-05-25 23:34:53.873706+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:35:53 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:36:53 IST)" (scheduled at 2025-05-25 23:35:53.873706+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:36:53 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:38:09 IST)" (scheduled at 2025-05-25 23:37:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:38:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:39:09 IST)" (scheduled at 2025-05-25 23:38:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:39:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:40:09 IST)" (scheduled at 2025-05-25 23:39:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:40:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:41:09 IST)" (scheduled at 2025-05-25 23:40:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:41:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:42:09 IST)" (scheduled at 2025-05-25 23:41:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:42:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:43:09 IST)" (scheduled at 2025-05-25 23:42:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:43:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:44:09 IST)" (scheduled at 2025-05-25 23:43:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:44:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:45:09 IST)" (scheduled at 2025-05-25 23:44:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:45:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:46:09 IST)" (scheduled at 2025-05-25 23:45:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:46:09 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:47:09 IST)" (scheduled at 2025-05-25 23:46:09.222045+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-25 23:47:09 IST)" executed successfully
+Adding job tentatively -- it will be properly scheduled when the scheduler starts
+Added job "check_reminders" to job store "default"
+Scheduler started
+Reminder scheduler started
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/ymore23/.local/lib/python3.9/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:19:35 IST)" (scheduled at 2025-05-26 00:18:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:19:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:20:35 IST)" (scheduled at 2025-05-26 00:19:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:20:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:21:35 IST)" (scheduled at 2025-05-26 00:20:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:21:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:22:35 IST)" (scheduled at 2025-05-26 00:21:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:22:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:23:35 IST)" (scheduled at 2025-05-26 00:22:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:23:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:24:35 IST)" (scheduled at 2025-05-26 00:23:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:24:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:25:35 IST)" (scheduled at 2025-05-26 00:24:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:25:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:26:35 IST)" (scheduled at 2025-05-26 00:25:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:26:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:27:35 IST)" (scheduled at 2025-05-26 00:26:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:27:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:28:35 IST)" (scheduled at 2025-05-26 00:27:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:28:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:29:35 IST)" (scheduled at 2025-05-26 00:28:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:29:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:30:35 IST)" (scheduled at 2025-05-26 00:29:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:30:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:31:35 IST)" (scheduled at 2025-05-26 00:30:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:31:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:32:35 IST)" (scheduled at 2025-05-26 00:31:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:32:35 IST)" executed successfully
+Running job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:33:35 IST)" (scheduled at 2025-05-26 00:32:35.982040+05:30)
+Job "check_reminders (trigger: interval[0:01:00], next run at: 2025-05-26 00:33:35 IST)" executed successfully
