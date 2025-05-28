@@ -12,6 +12,7 @@ from app.routes import reminder
 from app.utils.scheduler import start_scheduler
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes.roadmap import router as roadmap_router
+from app.routes.ai_chat import router as ai_router
 
 # Create all database tables
 models.Base.metadata.create_all(bind=database.engine)
@@ -25,6 +26,7 @@ app.include_router(auth.router, prefix="/auth", tags=["Auth"])
 app.include_router(goal.router, prefix="/goals", tags=["Goals"])
 app.include_router(reminder.router, prefix="/reminders", tags=["Reminders"])
 app.include_router(roadmap_router, prefix="/roadmap")
+app.include_router(ai_router)
 
 # Start scheduler on startup
 @app.on_event("startup")
@@ -43,7 +45,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "http://192.168.0.102:3000",
+        "http://192.168.0.103:3000",
         ],  # React dev server
     allow_credentials=True,
     allow_methods=["*"],
